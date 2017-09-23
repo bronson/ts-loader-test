@@ -1,4 +1,4 @@
-///<reference path="png.d.ts"/>
+import './png'
 import * as logo from './icon-blue.png'
 
 console.log(logo)
