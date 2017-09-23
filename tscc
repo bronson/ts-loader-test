@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# compile individual files using the same settings as our typescript project
+# (doesn't tsc support something like --config tsconfig.json?)
+
+tsc --module es6 --target es6 --moduleResolution node --allowSyntheticDefaultImports --noImplicitReturns --strict --outDir /tmp "$@"
